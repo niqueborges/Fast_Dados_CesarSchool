@@ -6,4 +6,4 @@ altura = float(input('Digite a altura da parede: '))
 
 area = largura * altura
 
-print(f"A área da parede é {area}m²")
+print(f'A área da parede é {area}m²')
