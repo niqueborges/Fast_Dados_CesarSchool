@@ -11,4 +11,22 @@
 # Entre 3 e 4 como "Cúmplice" e 5 como "Ladrão".
 # Caso contrário, ela será classificada como "Inocente".
 
- 
+perguntas = []
+
+perguntas.append(input("Conhece a vítima do furto? "))
+perguntas.append(input("Esteve no local do furto? "))
+perguntas.append(input("Mora perto da vítima? "))
+perguntas.append(input("A vítima lhe devia? "))
+perguntas.append(input("Já trabalhou com a vítima: "))
+soma=0
+for p in perguntas:
+    if p=="SIM":
+        soma+=1
+if soma==2:
+    print("Suspeita")
+elif soma==3 or soma==4:
+    print("Cúmplice")
+elif soma==5:
+    print("Ladrão")
+else:
+    print("Inocente")
