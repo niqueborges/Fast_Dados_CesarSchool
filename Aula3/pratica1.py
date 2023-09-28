@@ -1,0 +1,2 @@
+# Desenvolva um programa que some os números pares entre o intervalo de dois números. 
+# O número inicial e o final do intervalo são fornecidos pelo usuário. Caso esses valores sejam pares, eles também entram na contagem.

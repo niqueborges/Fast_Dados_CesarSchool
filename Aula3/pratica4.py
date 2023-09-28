@@ -1,0 +1,2 @@
+# Após o usuário digitar um número inteiro, informe se ele é um número perfeito.
+# Um número é perfeito se a soma dos seus divisores (exceto ele) for igual ao próprio número. Ex: : 6 é perfeito, pois 1+2+3 = 6. 
