@@ -12,6 +12,7 @@
 # Caso contrário, ela será classificada como "Inocente".
 
 perguntas = []
+respostas = []
 
 perguntas.append(input("Conhece a vítima do furto? "))
 perguntas.append(input("Esteve no local do furto? "))
