@@ -14,15 +14,11 @@
 notas = []
 
 for i in range(5):
-    nota = float(input(f"Digite a nota: {i+1}: "))
-    notas.append(nota)
+    notas.append(float(input(f'Digite a nota: ')))
 
-soma = sum(notas)
-media = soma / len(notas)
-
+media = sum(notas)/5
 print(f"A média da turma é: {media:.2f}")
 
-print("Notas superiores à média:")
 for nota in notas:
     if nota > media:
-        print(nota)
+        print(f'A nota {nota} foi superior à média!')
