@@ -10,4 +10,17 @@
 # Média entre 5.0 e 6.9: recuperação
 # Média 7.0 ou superior: aprovado
 
+n1 = float(input('Digite a primeira nota: '))
+n2 = float(input('Digite a segunda nota: '))
+n3 = float(input('Digite a terceira nota: '))
+
+media_ponderada = ((n1 * 2) + (n2 * 3) + (n3 * 5)) / 10
+
+if media_ponderada <= 4.9:
+  print('Que pena! Você está reprovado.')
+elif media_ponderada >= 5.0 and media_ponderada <= 6.9:
+  print('Quase lá! Você está na recuperação.')
+else:
+  print('Arrasou! Você está aprovado!')
+
 

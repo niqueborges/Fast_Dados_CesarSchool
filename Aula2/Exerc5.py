@@ -8,3 +8,19 @@
 # 40 ou mais: Obesidade mórbida 
 # 
 # Solicite a altura e o peso do usuário, calcule o seu IMC e mostre a classificação. O IMC é calculado pela expressão peso/altura² (peso dividido pelo quadrado da altura).
+
+altura = float(input('Digite sua altura em m: '))
+peso = float(input('Digite seu peso em kg: '))
+
+imc = peso / altura ** 2
+
+if imc < 18.5:
+  print('Abaixo do peso')
+elif imc >= 18.5 and imc <= 24.9:
+  print('Peso ideal')
+elif imc >= 25 and imc <= 29.9:
+  print('Sobrepeso')
+elif imc >= 30 and imc <= 39.9:
+  print('Obesidade')
+else:
+  print('Obesidade mórbida')
