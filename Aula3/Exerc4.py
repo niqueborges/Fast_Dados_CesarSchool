@@ -10,3 +10,12 @@
 # 5 x 5 = 25
 # 5 x 6 = 30
 # 5 x 7 = 35
+
+numero = int(input("***Tabuada***\nMontar a tabuada do: "))
+
+comeco = int(input("Calcular de: "))
+fim = int(input("Calcular até: "))
+
+for i in range(comeco, fim + 1):
+    resultado = numero * i
+    print(f"{numero} x {i} = {resultado}")
