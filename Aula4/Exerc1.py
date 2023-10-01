@@ -2,3 +2,5 @@
 # a) A soma dos números pares do vetor C; 
  #b) A média dos números ímpares do vetor C; 
  #c) O menor valor do vetor C.
+ 
+ 
