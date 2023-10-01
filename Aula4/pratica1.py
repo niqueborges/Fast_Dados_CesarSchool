@@ -17,7 +17,7 @@ for i in range(5):
     notas.append(float(input(f'Digite a nota: ')))
 
 media = sum(notas)/5
-print(f"A média da turma é: {media:.2f}")
+print(f'A média da turma é: {media:.2f}')
 
 for nota in notas:
     if nota > media:
