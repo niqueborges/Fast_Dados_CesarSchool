@@ -24,7 +24,7 @@ while decisao == 'S':
             cardapio.pop(nome)
         else:
             print('Produto não encontrado!')
-    elif: pergunta == 'M':
+    elif pergunta == 'M':
         nome = input('Digite o nome do produto que deseja modificar? ').capitalize()
         if cardapio.get(nome):
             cardapio[nome] = preco
