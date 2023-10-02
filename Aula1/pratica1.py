@@ -1,5 +1,5 @@
-# Desenvolva um programa em que o professor possa inserir o seu nome, o seu salário fixo e o total de aulas que ele 
-# ministra por mês. Após isso, exiba na tela as informações.
+"""Desenvolva um programa em que o professor possa inserir o seu nome, o seu salário fixo e o total de aulas que ele 
+ministra por mês. Após isso, exiba na tela as informações."""
 
 nome = input('Digite o seu nome:' )
 salario = float(input('Digite o seu salário fixo:' ))
