@@ -14,9 +14,9 @@ def status(media):
     if media > 6:
         print ('Aprovado!!')
     elif media >= 4 and media <= 6 :
-        print ('Verificação Suplementar')
+        print ('Verificação Suplementar!!')
     else:
-        print ('Reprovado')
+        print ('Reprovado!!')
         
 nota1 = float(input('Digite a primeira nota: '))
 nota2 = float(input('Digite a segunda nota: '))
