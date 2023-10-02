@@ -1,4 +1,5 @@
-# Peça ao usuário para inserir a temperatura em Fahrenheit. Na sequência, calcule e exiba na tela a temperatura em Celsius.
+"""Peça ao usuário para inserir a temperatura em Fahrenheit. 
+Na sequência, calcule e exiba na tela a temperatura em Celsius."""
 
 temperatura = float(input('Digite a temperatura em Fahrenheit: '))
 

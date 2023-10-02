@@ -1,7 +1,8 @@
-# Uma revendedora de carros usados paga a seus vendedores um salário fixo por mês, mais uma comissão também fixa para cada carro vendido 
-# e mais 5% do valor das vendas por ele efetuadas.
-# Escreva um algoritmo que leia o número de carros vendidos por uma pessoa vendedora, o valor total de suas vendas, o salário fixo e a
-# comissão que a pessoa receberá por carro vendido. Calcule e escreva o salário final. 
+"""Uma revendedora de carros usados paga a seus vendedores um salário fixo por mês, 
+mais uma comissão também fixa para cada carro vendido e mais 5% do valor das vendas por ele efetuadas.
+Escreva um algoritmo que leia o número de carros vendidos por uma pessoa vendedora, 
+o valor total de suas vendas, o salário fixo e a comissão que a pessoa receberá por carro vendido. 
+Calcule e escreva o salário final.""" 
 
 salario_fixo = float(input('Digite o salário fixo: '))
 comissao = float(input('Digite a comissão por carro vendido: '))

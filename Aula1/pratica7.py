@@ -1,4 +1,5 @@
-# Desenvolva um programa que leia os valores de A, B e C de uma equação do segundo grau e mostre o valor de Delta.
+"""Desenvolva um programa que leia os valores de A, B e C de uma equação do segundo grau 
+e mostre o valor de Delta."""
 
 a = int(input('Digite o valor de A: '))
 b = int(input('Digite o valor de B: '))
