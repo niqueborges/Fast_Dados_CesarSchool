@@ -8,7 +8,7 @@ serv3 = 0
 serv4 = 0
 
 for i in range(5):
-    servico = int(input("Selecione o código do serviço:\n(1) banho\n(2) tosa\n(3) banho e tosa\n(4) outros\n"))
+    servico = int(input('Selecione o código do serviço:\n(1) banho\n(2) tosa\n(3) banho e tosa\n(4) outros\n'))
 
     if servico == 1:
         serv1 += 1
@@ -19,7 +19,7 @@ for i in range(5):
     elif servico == 4:
         serv4 += 1
     else:
-        print("Código inválido!")
-        servico = int(input("Selecione o código do serviço:\n(1) banho\n(2) tosa\n(3) banho e tosa\n(4) outros\n"))
+        print('Código inválido!')
+        servico = int(input('Selecione o código do serviço:\n(1) banho\n(2) tosa\n(3) banho e tosa\n(4) outros\n'))
 
-print(f"Relatório diário de serviços:\n(1) banho: {serv1}\n(2) tosa: {serv2}\n(3) banho e tosa: {serv3}\n(4) outros: {serv4}")
+print(f'Relatório diário de serviços:\n(1) banho: {serv1}\n(2) tosa: {serv2}\n(3) banho e tosa: {serv3}\n(4) outros: {serv4}')

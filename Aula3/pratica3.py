@@ -1,4 +1,5 @@
-# Faça um programa que receba notas de alunos, até -1 ser informado. Ao final, o programa deve exibir quantas notas foram informadas e a média entre elas.
+"""Faça um programa que receba notas de alunos, até -1 ser informado. 
+Ao final, o programa deve exibir quantas notas foram informadas e a média entre elas."""
 
 nota =0.0
 i = 0
