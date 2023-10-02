@@ -1,8 +1,9 @@
-# Faça um programa que pergunte para um gerente de uma lanchonete se ele deseja remover, adicionar ou modificar o valor de um produto do cardápio,
-# apenas encerrando o algoritmo quando o usuário decidir.
-# No final, mostre o cardápio com as modificações. Segue o cardápio original (já cria o dicionário com esses valores):
+"""Faça um programa que pergunte para um gerente de uma lanchonete se ele deseja remover, 
+adicionar ou modificar o valor de um produto do cardápio,
+apenas encerrando o algoritmo quando o usuário decidir.
+No final, mostre o cardápio com as modificações. Segue o cardápio original (já cria o dicionário com esses valores):
 
-# Item: coxinha, pastel, suco, bolo (R$ 5.00, R$ 4.00, R$ 3.50, R$ 4.50)
+# Item: coxinha, pastel, suco, bolo (R$ 5.00, R$ 4.00, R$ 3.50, R$ 4.50)"""
 
 cardapio = {'coxinha': 5.00, 'pastel': 4.00, 'suco': 3.50, 'bolo': 4.50}
 print(cardapio)
