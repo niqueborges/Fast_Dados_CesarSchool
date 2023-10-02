@@ -7,3 +7,19 @@ Nota abaixo de 4.0: Reprovado
 
 Utilizar duas funções"""
 
+def media(nota1, nota2):
+    return (nota1 + nota2) / 2
+
+def status(media):
+    if media > 6:
+        print ('Aprovado!!')
+    elif media >= 4 and media <= 6 :
+        print ('Verificação Suplementar')
+    else:
+        print ('Reprovado')
+        
+nota1 = float(input('Digite a primeira nota: '))
+nota2 = float(input('Digite a segunda nota: '))
+
+resultado = media(nota1, nota2)
+status(resultado)
