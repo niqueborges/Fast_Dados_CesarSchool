@@ -1,10 +1,10 @@
-# Numa promoção exclusiva para o Dia da Mulher, uma loja quer dar descontos para todos, mas especialmente para as mulheres. 
-# Faça um programa que leia nome, sexo (F ou M) e o valor das compras do cliente e calcule o desconto. Sabendo que:
-# ● Se for mulher, ganha 13% de desconto
-# ● Senão, ganha 5% de desconto
-# Duas ações possíveis:
-# 1. Aplicar 13% de desconto
-# 2. Aplicar 5% de desconto
+"""Numa promoção exclusiva para o Dia da Mulher, uma loja quer dar descontos para todos, mas especialmente para as mulheres. 
+Faça um programa que leia nome, sexo (F ou M) e o valor das compras do cliente e calcule o desconto. Sabendo que:
+● Se for mulher, ganha 13% de desconto
+● Senão, ganha 5% de desconto
+Duas ações possíveis:
+1. Aplicar 13% de desconto;
+2. Aplicar 5% de desconto."""
 
 nome = input('Digite o nome do cliente: ')
 sexo = input('Digite o sexo do cliente (F ou M): ')
