@@ -3,5 +3,23 @@ A primeira função vai sortar 5 números (entre 0 e 99) e vai colocá-los dentr
 A segunda função vai mostrar a soma entre todos os valores pares sorteados pela função anterior."""
 
 from random import randint
-nome_vetor.append(randint(0, 99))
+
+def sorteia():
+    numeros = []
+    for i in range(5):
+        numeros.append(randint(0, 99))
+    return numeros
+
+def somaPar(numeros):
+    soma = []
+    for i in numeros:
+        if i % 2 == 0:
+            soma.append(i)
+    print(f'Os números sorteados foram: {numeros}')
+    print(f'A soma dos números pares é: {sum(soma)}')
+    
+somaPar(sorteia())
+
+
+
 
